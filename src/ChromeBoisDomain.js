@@ -33,7 +33,7 @@ export default class ChromeBoisDomain extends Component {
      if(key == "s"){
         resize("-");
      }
-     else if(key == "a"){
+      if(key == "a"){
         resize("+");
      }
    }
